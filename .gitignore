@@ -1,0 +1,14 @@
+.DS_Store
+.build/
+dist/
+venv/
+*.pyc
+__pycache__/
+AppIcon.iconset/
+~/.finder_ai_config.json
+
+# Local scratch/prototype files not used by the current app build
+agent.py
+tools.py
+FinderAgent.swift
+Finder AI Agent
