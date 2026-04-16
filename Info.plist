@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleExecutable</key>
+    <string>Nest</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.nest.finder.agent</string>
+    <key>CFBundleName</key>
+    <string>Nest</string>
+    <key>CFBundleDisplayName</key>
+    <string>Nest</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleVersion</key>
+    <string>1.0.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSAccessibilityUsageDescription</key>
+    <string>Nest needs Accessibility access to read the Finder window position and dock the command bar below it.</string>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>Nest needs Automation access to read which files are selected in Finder.</string>
+    <key>NSAppleScriptEnabled</key>
+    <true/>
+</dict>
+</plist>
