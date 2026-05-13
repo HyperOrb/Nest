@@ -5,10 +5,8 @@
 <h1 align="center">Nest</h1>
 
 <p align="center">
-  A Finder-native AI agent for macOS.<br><br>
-  <a href="https://youtu.be/depebDj8i74">
-    <img src="https://img.youtube.com/vi/depebDj8i74/maxresdefault.jpg" alt="Nest Demo Video" width="800">
-  </a>
+  A Finder-native AI agent for macOS.<br>
+  <a href="https://youtu.be/depebDj8i74">Click for video demo of Nest</a>
 </p>
 
 Nest is a native macOS AI agent that lives in Finder.
