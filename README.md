@@ -29,6 +29,18 @@ Nest is designed to feel like a file agent beside you: quick for simple tasks, c
 - Optional extra tools such as ImageMagick
 - First-run onboarding and permission health checks
 
+## Screenshots
+
+<p align="center">
+  <img src="pic/1.png" width="400">
+  <img src="pic/2.png" width="400">
+  <br>
+  <img src="pic/3.png" width="400">
+  <img src="pic/4.png" width="400">
+  <br>
+  <img src="pic/5.png" width="400">
+</p>
+
 ## Download
 
 Download the latest `.dmg` from the GitHub Releases page:
