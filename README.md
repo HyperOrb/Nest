@@ -1,86 +1,90 @@
 <p align="center">
-  <img src="AppIcon-1024.png" alt="Nest app icon" width="128" height="128">
+  <img src="AppIcon-1024.png" alt="Nest app icon" width="160" height="160">
 </p>
 
 <h1 align="center">Nest</h1>
 
 <p align="center">
-  A Finder-native AI agent for macOS.<br>
-  <a href="https://youtu.be/depebDj8i74">Click for video demo of Nest</a>
+  <strong>Your Finder-native AI companion for macOS.</strong><br>
+  <a href="https://youtu.be/depebDj8i74">📺 Watch the Demo Video</a>
 </p>
-
-Nest is a native macOS AI agent that lives in Finder.
-
-Select files, tell Nest what you want, and it can understand, inspect, transform, organize, or act on them using natural language. Nest docks beneath the active Finder window, understands the current selection, talks to your chosen AI provider, and turns requests into useful local file actions.
-
-Nest is designed to feel like a file agent beside you: quick for simple tasks, careful around risky actions, and transparent about what it is doing.
-
-## Features
-
-- Finder-native AI agent experience
-- Natural-language understanding for selected files and folders
-- Local file actions generated through bring-your-own AI providers
-- Gemini, OpenRouter, OpenAI-compatible APIs, and local Ollama support
-- Instant shortcuts for common file operations
-- Auto-run policy for harmless commands
-- Command preview for risky actions
-- In-bar progress and result display
-- Activity log for recent prompts, commands, outputs, and failures
-- Optional extra tools such as ImageMagick
-- First-run onboarding and permission health checks
-
-## Screenshots
 
 <p align="center">
-  <img src="pic/1.png" width="400">
-  <img src="pic/2.png" width="400">
-  <br>
-  <img src="pic/3.png" width="400">
-  <img src="pic/4.png" width="400">
-  <br>
-  <img src="pic/5.png" width="400">
+  <img src="https://img.shields.io/badge/macOS-13.0+-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS 13.0+">
+  <img src="https://img.shields.io/badge/Swift-5.9-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift 5.9">
+  <img src="https://img.shields.io/badge/AI-Bring_Your_Own-0088cc?style=for-the-badge&logo=openai&logoColor=white" alt="Bring Your Own AI">
 </p>
 
-## Download
+<hr>
 
-Download the latest `.dmg` from the GitHub Releases page:
+### 🧠 What is Nest?
 
-[Download Nest](https://github.com/HyperOrb/Nest/releases/latest)
+**Nest is a native macOS AI agent that lives directly inside Finder.** 
 
-Open the `.dmg`, drag Nest into Applications, then launch it.
+Instead of copying and pasting files into a web browser, just select files right in Finder, tell Nest what you want, and let it work. Whether you need to inspect code, transform documents, organize chaotic folders, or act on media, Nest understands your current selection using natural language.
 
-If macOS warns that the app is from an unidentified developer, right-click Nest and choose **Open**.
+It docks elegantly beneath the active Finder window, speaks to your chosen AI provider, and translates your requests into safe, useful local file actions.
 
-## Permissions
+### ✨ Features
 
-Nest uses macOS Accessibility and Automation permissions so the agent can follow Finder windows and understand the selected files. macOS may ask for these permissions the first time the app runs.
+- **🎯 Finder-Native Experience:** Docks perfectly with your active window. No context switching.
+- **🗣️ Natural Language Commands:** Talk to your files in plain English.
+- **🔌 Bring Your Own AI:** Plug in your API keys. Supports **Gemini, OpenRouter, OpenAI-compatible APIs**, and even **Ollama** for 100% offline local privacy.
+- **⚡ Instant Shortcuts:** Pre-built instant actions for common, repetitive file operations.
+- **🛡️ Safe by Design:** Harmless commands run automatically. Risky or destructive commands are presented as a preview for your explicit approval.
+- **📊 Live Progress:** Real-time in-bar progress and result display.
+- **📜 Activity Log:** Keep track of recent prompts, generated commands, and terminal outputs.
+- **🛠️ Extensible:** Supports optional CLI tools like `ImageMagick`, `FFmpeg`, `Pandoc`, and `Poppler` for advanced transformations.
 
-## AI Providers
+---
 
-API keys are stored locally in:
+## 📸 See it in Action
 
+<p align="center">
+  <img src="pic/1.png" width="48%">
+  <img src="pic/2.png" width="48%">
+  <br><br>
+  <img src="pic/3.png" width="48%">
+  <img src="pic/4.png" width="48%">
+  <br><br>
+  <img src="pic/5.png" width="48%">
+</p>
+
+---
+
+## 🚀 Getting Started
+
+### Download
+Grab the latest `.dmg` from the GitHub Releases page:
+
+👉 **[Download Nest Now](https://github.com/HyperOrb/Nest/releases/latest)**
+
+1. Open the `.dmg` and drag **Nest** into your `Applications` folder.
+2. Launch Nest. *(If macOS warns about an unidentified developer, right-click Nest and select **Open**).*
+
+### Permissions
+Nest acts as your hands and eyes in the file system. It requires macOS **Accessibility** and **Automation** permissions to follow Finder windows and understand selected files. macOS will prompt you for these on the first run.
+
+---
+
+## ⚙️ Configuration
+
+### AI Providers
+Nest is completely BYOK (Bring Your Key). API keys are stored securely and locally on your machine at:
 ```bash
 ~/.finder_ai_config.json
 ```
 
-Supported providers:
+### Optional Tools
+Nest can leverage powerful open-source tools if you have them installed. It will never install them automatically without your permission.
+- **ImageMagick:** For advanced image manipulation.
+- **FFmpeg/FFprobe:** For video/audio conversion and inspection.
+- **Pandoc:** For document conversion (Markdown, Word, PDF).
+- **Poppler / QPDF:** For advanced PDF wizardry.
 
-- Gemini
-- OpenRouter
-- OpenAI-compatible APIs
-- Ollama Local
+---
 
-## Optional Tools
-
-Some actions use optional command-line tools:
-
-- ImageMagick for advanced image edits
-- FFmpeg/FFprobe for media conversion and inspection
-- Pandoc for document conversion
-- Poppler/QPDF/Ghostscript for advanced PDF actions
-
-Nest does not install tools automatically from AI-generated commands. Extra tools are installed only when the user confirms from Settings.
-
-## Notes
-
-Nest is currently a standalone Swift/AppKit + SwiftUI app compiled with `swiftc`.
+<p align="center">
+  <i>Built with Swift, AppKit, and SwiftUI.</i><br>
+  <b>Designed for builders who live in Finder.</b>
+</p>
