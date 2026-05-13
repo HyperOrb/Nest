@@ -140,7 +140,7 @@ Inspect file types, sources and permissions.
 
 ---
 
-## 📸 See it in Action
+## 📸 Screenshots
 
 <p align="center">
   <img src="pic/1.png" width="48%">
